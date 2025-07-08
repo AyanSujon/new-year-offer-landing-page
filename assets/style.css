@@ -1,7 +1,60 @@
+/* Google Font0 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 1140px;
     margin: 0 auto;
+}
+/* h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Common Styles */
+section{
+    margin-bottom: 120px;
+}
+h3, h4{
+    font-family: "Merriweather", serif;
+}
+p{
+    font-family: "Inter", sans-serif;
+}
+
+/* Hero Section Start here */
+.hero-section{
+    margin-top: 50px;
+    background-image: url(../images/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 150px 0;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.hero-section::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+    z-index: -1;
+}
+.hero-greetings{
+    font-size: 32px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+    margin-bottom: 16px;
+}
+.hero-header-text{
+    max-width: 600px;
+    font-weight: 800px;
+    font-size: 72px;
 }
