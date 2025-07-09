@@ -15,13 +15,15 @@
 section{
     margin-bottom: 120px;
 }
-h3, h4{
-    font-family: "Merriweather", serif;
+main{
+    max-width: 1140px;
 }
+/* h3, h4{
+    font-family: "Merriweather", serif;
+} */
 p{
     font-family: "Inter", sans-serif;
 }
-
 /* Hero Section Start here */
 .hero-section{
     max-width: 1140px;
@@ -59,6 +61,56 @@ p{
     font-size: 72px;
 }
 
+/* Main Section Start Here */
+
+.discount-section{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.discount-section h2{
+    
+    font-weight: 700;
+    font-size: 88px;
+    color: #FF0000;
+}
+
+.discount-section h4{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+.discount-section h3{
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+}
+
+/* midnight party Section Start here */
+.midnight-party{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 150px 100px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.midnight-party h3{
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-size: 64px;
+    max-width: 500px
+
+}
+.midnight-party p{
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 700px
+}
 
 
 
@@ -88,15 +140,17 @@ p{
 .footer-section{
     max-width: 100%;
     background-color: #070211;
-    border-radius: 16px;
-    padding: 120px 0;
+    padding: 70px 0;
 }
 .footer-info{
     display: flex;
     justify-content: space-between;
     font-size: 24px;
-    font-weight: 500px;
+    font-weight: 50px;
     color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    position: relative;
 }
 .footer-info p{
     max-width: 375px;
@@ -114,7 +168,48 @@ p{
 .footer-info::before{
     content: "";
     position: absolute;
+    bottom: -15px;
+    left: 0;
     width: 100%;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.25);
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.footer-social::before{
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.footer-social ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.footer-social ul li a img{
+    max-width: 50px;
+}
+.copyright{
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    color:#FFFFFF;
+}
+.copyright a{
+    color: #FFFFFF;
+    transition: all linear .3s;
+}
+.copyright:hover a{
+    color: #FF0000;
+}
+.copyright p{
+    background-color: #070211;
 }
