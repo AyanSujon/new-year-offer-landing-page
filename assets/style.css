@@ -178,9 +178,61 @@ p{
     background-color: #070211;
 }
 /* Coming Soon Section Start Here */
+.coming-soon-comtainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+.comming-soon-box{
+    flex: 1;
+}
+.comming-soon-box h6{
+   color: #FF0000;
+   font-size: 24px;
+   font-weight: 500;
+   font-family: "Inter", sans-serif;
+   text-transform: uppercase;
+   margin-bottom: 16px;
+}
+.comming-soon-box h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-bottom: 22px;
 
-
-
+}
+.comming-soon-box p{
+    color: rgba(7, 2, 17, .60);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    
+}
+.comming-soon-box figure{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.comming-soon-box figure img{
+    width: 280px;
+    border: 50%;
+}
+.comming-soon-box .year{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+.new-year-image{
+    margin-top: 40px;
+    width: 140px;
+}
 
 
 
